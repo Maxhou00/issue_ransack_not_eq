@@ -11,6 +11,19 @@ and in rails console compare the following queries
 
 `User.ransack(g: { '0': { comments_article_id_eq: 1, comments_upvote_not_eq: '1.0' } }).result.size`
 
+
+Rails version:
+
+7.0.2
+
+Ruby version:
+
+3.1.2
+
+Ransack version:
+
+4.0.0
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
