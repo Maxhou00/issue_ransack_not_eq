@@ -1,10 +1,8 @@
 # README
 
-`bundle install`
-
-`rails db:migrate`
-
-`rails db:seeds`
+1) `bundle install`
+2) `rails db:migrate`
+3) `rails db:seeds`
 
 You should have 2 Users, 200 Articles and 4000 comments (2000 for each user and 20 for each articles)
 and in rails console compare the following queries
